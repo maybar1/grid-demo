@@ -1,5 +1,5 @@
-import DemoCssGrid from "./DemoCssGrid";
-import PureCssGrid from "./PureCssGrid";
+import CssGrid from "./CssGrid";
+import MaterialGrid from "./MaterialGrid";
 
 export default function App() {
   return (
@@ -7,10 +7,10 @@ export default function App() {
       <h1 style={{ textAlign: "center" }}>CSS Grid + Material UI Grid</h1>
 
       {/* Material UI Grid – 3 responsive cards */}
-      <DemoCssGrid />
+      <MaterialGrid />
 
       {/* Pure CSS Grid – auto-fit + minmax */}
-      <PureCssGrid />
+      <CssGrid />
     </div>
   );
 }
